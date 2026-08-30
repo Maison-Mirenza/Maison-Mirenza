@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated static site (built and deployed by GitHub Actions)
+docs/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
