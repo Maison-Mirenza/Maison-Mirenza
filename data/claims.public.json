@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {
+      "id": "endo-research",
+      "scope": "endometriosis",
+      "exact_wording": "Maison Mirenza consacre un axe de recherche et de développement aux besoins liés à l’endométriose et participe à des programmes de recherche sur ce sujet.",
+      "status": "verified",
+      "public": true,
+      "evidence_ref": "internal-program-governance"
+    }
+  ]
+}

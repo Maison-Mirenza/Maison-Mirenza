@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Maison Mirenza"><defs><filter id="g" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.04"/></feComponentTransfer></filter>
+      <radialGradient id="glow" cx="50%" cy="42%" r="52%"><stop offset="0" stop-color="#7C1F2B" stop-opacity="0.14"/><stop offset="1" stop-color="#7C1F2B" stop-opacity="0"/></radialGradient></defs>
+    <rect width="1600" height="900" fill="#F3EFE7"/>
+    <rect width="1600" height="900" fill="url(#glow)"/>
+    <circle cx="800.0" cy="360.0" r="130" fill="none" stroke="#A8894C" stroke-opacity="0.5" stroke-width="1"><animate attributeName="r" values="120;150;120" dur="7s" repeatCount="indefinite"/></circle>
+    <g fill="#A8894C" fill-opacity="0.9"><path d="M 800.0 293.3 C 855.1 351.3, 841.76 418.0, 800.0 418.0 C 758.24 418.0, 744.9 351.3, 800.0 293.3 Z" /><animateTransform attributeName="transform" type="translate" values="0 -6;0 6;0 -6" dur="6s" repeatCount="indefinite"/></g>
+    <text x="800.0" y="648.0" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="46" letter-spacing="14" fill="#211E1B">MAISON MIRENZA</text>
+    <text x="800.0" y="720.0" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="20" letter-spacing="6" fill="#7C1F2B">L’INTIME, RÉINVENTÉ.</text>
+    <rect width="1600" height="900" filter="url(#g)" opacity="0.5"/>
+    <rect x="16" y="16" width="1568" height="868" fill="none" stroke="#211E1B" stroke-opacity="0.14"/>
+    </svg>

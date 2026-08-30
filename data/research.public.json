@@ -1,0 +1,99 @@
+{
+  "manifesto": "Observer. Formuler. Tester. Documenter. Recommencer. Mirenza Lab est une plateforme de recherche appliquée à la matière, à l’usage et aux besoins de santé intime. Un axe de recherche n’est jamais présenté comme un bénéfice produit tant qu’il n’a pas été validé.",
+  "axes": [
+    {
+      "id": "materials",
+      "name": "Textile & matières",
+      "public": true,
+      "status": "active",
+      "summary": "Comprendre ce qui touche le corps : fibres, tissages, interfaces avec la peau, respirabilité.",
+      "detail": "Nous étudions les matières au contact de la peau — leur douceur, leur respirabilité, leur comportement dans le temps — avant de les retenir pour une création."
+    },
+    {
+      "id": "menstrual-performance",
+      "name": "Performance menstruelle",
+      "public": true,
+      "status": "active",
+      "summary": "Gestion des fluides, transfert, rétention, tenue dans la durée et en mouvement.",
+      "detail": "La performance se mesure : capacité, vitesse de transfert, tenue en mouvement, sécheresse ressentie. Les valeurs ne sont publiées qu’après validation."
+    },
+    {
+      "id": "comfort",
+      "name": "Confort & usage",
+      "public": true,
+      "status": "active",
+      "summary": "Observer le réel avant de concevoir : ergonomie, ressenti, gestes du quotidien.",
+      "detail": "Le confort se conçoit à partir de l’usage réel : porter, marcher, travailler, dormir. Nous partons de l’expérience avant de partir du produit."
+    },
+    {
+      "id": "durability",
+      "name": "Durabilité",
+      "public": true,
+      "status": "active",
+      "summary": "Vieillissement, entretien, tenue des matières lavage après lavage.",
+      "detail": "Une création réutilisable doit tenir dans le temps. Nous étudions le vieillissement des matières et l’effet des cycles d’entretien."
+    },
+    {
+      "id": "womens-health",
+      "name": "Santé féminine",
+      "public": true,
+      "status": "active",
+      "summary": "Besoins de santé intime, tolérance, qualité de vie au quotidien.",
+      "detail": "La santé intime dépasse la menstruation. Nous documentons les besoins du quotidien pour orienter la recherche et les futures créations."
+    },
+    {
+      "id": "endometriosis",
+      "name": "Endométriose",
+      "public": true,
+      "status": "active",
+      "summary": "Un axe de recherche et de développement consacré aux besoins liés à l’endométriose.",
+      "detail": "Maison Mirenza consacre un axe de recherche et de développement aux besoins liés à l’endométriose et participe à des programmes de recherche sur ce sujet."
+    }
+  ],
+  "methods": [
+    {
+      "id": "observe",
+      "label": "Observer",
+      "text": "Écouter les usages et les besoins réels avant de formuler une hypothèse."
+    },
+    {
+      "id": "formulate",
+      "label": "Formuler",
+      "text": "Traduire un besoin en question de recherche mesurable."
+    },
+    {
+      "id": "test",
+      "label": "Tester",
+      "text": "Éprouver matières et prototypes selon des protocoles reproductibles."
+    },
+    {
+      "id": "compare",
+      "label": "Comparer",
+      "text": "Mettre en regard les résultats, avant et après usage ou entretien."
+    },
+    {
+      "id": "document",
+      "label": "Documenter",
+      "text": "Consigner méthodes, données et limites de manière traçable."
+    },
+    {
+      "id": "iterate",
+      "label": "Recommencer",
+      "text": "Chaque réponse ouvre une nouvelle question. La recherche est un cycle."
+    }
+  ],
+  "programs": [
+    {
+      "id": "endo-program",
+      "name": "Programme Endométriose",
+      "public": true,
+      "disclosure_level": "abstract_only",
+      "status": "research",
+      "objective": "Étudier les besoins du quotidien liés à l’endométriose et contribuer à des programmes de recherche.",
+      "public_wording": "Axe de recherche et de développement consacré aux besoins liés à l’endométriose et à la participation de Maison Mirenza à des programmes de recherche.",
+      "timeline": "En cours",
+      "partners": []
+    }
+  ],
+  "rule": "Public pages serialize only records with public=true and respect disclosure_level."
+}

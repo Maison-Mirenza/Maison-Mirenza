@@ -1,0 +1,144 @@
+{
+  "universes": [
+    {
+      "id": "menstrual-health",
+      "name": "Santé menstruelle",
+      "status": "published",
+      "families": [
+        {
+          "id": "period-underwear",
+          "name": "Lingerie menstruelle",
+          "slug": "lingerie-menstruelle",
+          "status": "published",
+          "selection_model": "flow-cut-size",
+          "eyebrow": "Chapitre 01",
+          "tagline": "Le premier chapitre commercial de la Maison.",
+          "summary": "Deux coupes, trois niveaux d’absorption, huit tailles. Une lingerie pensée comme un vêtement, développée comme un objet de recherche.",
+          "editorial": "La lingerie menstruelle est la première création rendue publique par Maison Mirenza. Elle applique le travail du Lab sur les matières, le confort et la performance à un usage quotidien, sans jamais réduire la Maison à cette seule catégorie.",
+          "hero_media": {
+            "film": "mm_period_family_master_16x9_v01",
+            "ratio": "16x9",
+            "duration": "12–18 s"
+          },
+          "channel": [
+            "ecommerce",
+            "pharmacy"
+          ],
+          "reference_image": "assets/reference/product_technology_reference.jpeg",
+          "packaging_image": "assets/reference/packaging_bordeaux.png",
+          "lines": [
+            {
+              "id": "core",
+              "name": "Collection principale",
+              "products": [
+                {
+                  "id": "classic-brief",
+                  "name": "Classic Brief",
+                  "slug": "classic-brief",
+                  "status": "published",
+                  "cut": "Coupe couvrante",
+                  "summary": "Une coupe couvrante, taille classique, pensée pour disparaître sous le vêtement.",
+                  "editorial": "Le Classic Brief adopte une taille classique et une couverture complète. La barrière imperméable est prolongée jusqu’au bord et associée à un contour intérieur technique plus sombre pour la discrétion.",
+                  "front_image": "assets/media/mm_period_classic_front_3x4_v01.svg",
+                  "variants": [
+                    {
+                      "id": "light",
+                      "label": "Light",
+                      "flow_descriptor": "Flux léger",
+                      "publication_claim_id": "abs-light"
+                    },
+                    {
+                      "id": "regular",
+                      "label": "Regular",
+                      "flow_descriptor": "Flux modéré",
+                      "publication_claim_id": "abs-regular"
+                    },
+                    {
+                      "id": "night",
+                      "label": "Night",
+                      "flow_descriptor": "Flux abondant",
+                      "publication_claim_id": "abs-night"
+                    }
+                  ]
+                },
+                {
+                  "id": "hipster",
+                  "name": "Hipster",
+                  "slug": "hipster",
+                  "status": "published",
+                  "cut": "Coupe échancrée",
+                  "summary": "Une coupe échancrée, plus basse sur la hanche, pour un porté discret.",
+                  "editorial": "Le Hipster reprend la même architecture textile dans une coupe échancrée, plus basse sur la hanche. Même barrière prolongée, même contour intérieur technique.",
+                  "front_image": "assets/media/mm_period_hipster_front_3x4_v01.svg",
+                  "variants": [
+                    {
+                      "id": "light",
+                      "label": "Light",
+                      "flow_descriptor": "Flux léger",
+                      "publication_claim_id": "abs-light"
+                    },
+                    {
+                      "id": "regular",
+                      "label": "Regular",
+                      "flow_descriptor": "Flux modéré",
+                      "publication_claim_id": "abs-regular"
+                    },
+                    {
+                      "id": "night",
+                      "label": "Night",
+                      "flow_descriptor": "Flux abondant",
+                      "publication_claim_id": "abs-night"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "future_family_template": {
+    "status": "private",
+    "name": "",
+    "family_type": "",
+    "regulatory_profile": "",
+    "channel": [],
+    "products": []
+  },
+  "sku_dimensions": {
+    "sizes": [
+      "Teen 12–14",
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Bordeaux",
+        "hex": "#7C1F2B"
+      },
+      {
+        "name": "Sauge",
+        "hex": "#9FA994"
+      },
+      {
+        "name": "Nude",
+        "hex": "#C9A98C"
+      },
+      {
+        "name": "Blush",
+        "hex": "#CDA9A5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#222A36"
+      }
+    ]
+  },
+  "note": "Public catalog. Numeric absorbency targets are removed until validated as public claims."
+}

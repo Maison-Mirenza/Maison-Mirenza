@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1250" viewBox="0 0 1000 1250" role="img" aria-label="La couture"><defs><filter id="g" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer></filter><pattern id="twill" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(28)"><line x1="0" y1="0" x2="0" y2="14" stroke="#000" stroke-opacity="0.05" stroke-width="3"/></pattern>
+      <linearGradient id="fgt" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#8A2531"/><stop offset="1" stop-color="#7C1F2B"/></linearGradient>
+      <linearGradient id="fgb" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#7C1F2B"/><stop offset="1" stop-color="#5E1721"/></linearGradient>
+      <linearGradient id="fold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0.12"/><stop offset="0.5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0.08"/></linearGradient>
+    </defs>
+    <rect width="1000" height="1250" fill="#7C1F2B"/>
+    <path d="M 0 0 L 1000 0 L 1000 715 C 660 795, 300 665, 0 725 Z" fill="url(#fgt)"/>
+    <path d="M 0 725 C 300 665, 660 795, 1000 715 L 1000 1250 L 0 1250 Z" fill="url(#fgb)"/>
+    <rect width="1000" height="1250" fill="url(#twill)"/>
+    <path d="M 0 725 C 300 665, 660 795, 1000 715" fill="none" stroke="#000" stroke-opacity="0.28" stroke-width="10" filter="url(#g)" opacity="0.0"/>
+    <path d="M 0 725 C 300 665, 660 795, 1000 715" fill="none" stroke="#5E1721" stroke-opacity="0.7" stroke-width="3"/>
+    <path d="M 0 751 C 300 691, 660 821, 1000 741" fill="none" stroke="#000" stroke-opacity="0.25" stroke-width="6" stroke-dasharray="20 12" transform="translate(0,3)"/><path d="M 0 751 C 300 691, 660 821, 1000 741" fill="none" stroke="#C9A98C" stroke-opacity="0.95" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 12"/><path d="M 0 795 C 300 735, 660 865, 1000 785" fill="none" stroke="#000" stroke-opacity="0.25" stroke-width="6" stroke-dasharray="20 12" transform="translate(0,3)"/><path d="M 0 795 C 300 735, 660 865, 1000 785" fill="none" stroke="#C9A98C" stroke-opacity="0.95" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 12"/>
+    <rect width="1000" height="1250" fill="url(#fold)"/>
+    <path d="M 880 101.7 C 919.9 143.7, 910.24 192, 880 192 C 849.76 192, 840.1 143.7, 880 101.7 Z" fill="#C9A98C" fill-opacity="0.16"/>
+    <text x="44" y="1194" font-family="Helvetica Neue,Arial,sans-serif" font-size="24" letter-spacing="6" fill="#C9A98C" fill-opacity="0.85">LA COUTURE</text>
+    <rect width="1000" height="1250" filter="url(#g)" opacity="0.5"/>
+    <rect x="16" y="16" width="968" height="1218" fill="none" stroke="#F3EFE7" stroke-opacity="0.12"/>
+    </svg>

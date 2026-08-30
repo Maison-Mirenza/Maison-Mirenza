@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1250" viewBox="0 0 1000 1250" role="img" aria-label="Poster de film Maison Mirenza">
+<defs>
+<linearGradient id="g" x1="0.1" y1="0" x2="0.9" y2="1">
+<stop offset="0" stop-color="#EFE9DE"/><stop offset="0.55" stop-color="#DFD3C4"/><stop offset="1" stop-color="#C4B2A0"/>
+</linearGradient>
+<radialGradient id="r" cx="32%" cy="24%" r="55%">
+<stop offset="0" stop-color="#7C1F2B" stop-opacity="0.16"/><stop offset="1" stop-color="#7C1F2B" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="v" cx="50%" cy="50%" r="72%">
+<stop offset="0.62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.16"/>
+</radialGradient>
+<filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+<feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.05"/></feComponentTransfer>
+<feComposite operator="over" in2="SourceGraphic"/></filter>
+</defs>
+<rect width="1000" height="1250" fill="url(#g)"/>
+<rect width="1000" height="1250" fill="url(#r)"/>
+<circle cx="500.0" cy="575.0" r="304" fill="none" stroke="#7C1F2B" stroke-opacity="0.060" stroke-width="1"/><path d="M 500.0 391.0 C 652.0 551.0, 615.2 735.0, 500.0 735.0 C 384.8 735.0, 348.0 551.0, 500.0 391.0 Z" fill="none" stroke="#7C1F2B" stroke-opacity="0.1" stroke-width="1.5"/>
+<rect width="1000" height="1250" fill="url(#v)"/>
+<rect width="1000" height="1250" filter="url(#n)" opacity="0.55"/>
+<rect x="16" y="16" width="968" height="1218" fill="none" stroke="#211E1B" stroke-opacity="0.14"/>
+</svg>

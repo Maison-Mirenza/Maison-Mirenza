@@ -1,0 +1,46 @@
+:root{
+  --paper:#F3EFE7;
+  --warm-white:#FAF8F3;
+  --ink:#211E1B;
+  --lab:#191817;
+  --burgundy:#7C1F2B;
+  --navy:#222A36;
+  --sage:#9FA994;
+  --taupe:#B9AA9E;
+  --blush:#CDA9A5;
+  --gold:#A8894C;
+  --line:rgba(33,30,27,.16);
+  --line-light:rgba(250,248,243,.2);
+  --max:1440px;
+  --font:"Suisse Intl","Helvetica Neue",Arial,sans-serif;
+  --step--1:clamp(.75rem,.72rem + .12vw,.82rem);
+  --step-0:clamp(1rem,.96rem + .18vw,1.125rem);
+  --step-1:clamp(1.35rem,1.18rem + .72vw,1.85rem);
+  --step-2:clamp(2rem,1.55rem + 1.8vw,3.4rem);
+  --step-3:clamp(3.2rem,2.2rem + 4vw,7rem);
+  --space-1:.5rem;
+  --space-2:1rem;
+  --space-3:2rem;
+  --space-4:4rem;
+  --space-5:7rem;
+  --space-6:10rem;
+}
+/*
+Licensed font files are not included.
+Uncomment when licensed WOFF2 files are supplied:
+
+@font-face{
+  font-family:"Suisse Intl";
+  src:url("../fonts/SuisseIntl-Regular.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Suisse Intl";
+  src:url("../fonts/SuisseIntl-Medium.woff2") format("woff2");
+  font-weight:500;
+  font-style:normal;
+  font-display:swap;
+}
+*/

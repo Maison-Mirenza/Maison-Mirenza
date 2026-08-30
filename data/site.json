@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "name": "Maison Mirenza",
+    "city": "Paris",
+    "tagline": "L’intime, réinventé.",
+    "positioning": "Maison de santé intime et d’innovation",
+    "legal_name": "Maison Mirenza SAS",
+    "email": "bonjour@maisonmirenza.com",
+    "press_email": "presse@maisonmirenza.com",
+    "research_email": "recherche@maisonmirenza.com",
+    "base_url": "https://maison-mirenza.github.io/Maison-Mirenza"
+  },
+  "features": {
+    "enable_endometriosis": true,
+    "enable_pharmacy": true,
+    "enable_selector": true,
+    "enable_lab_publications": true,
+    "enable_research_participation": false,
+    "enable_journal": true,
+    "enable_cart": false
+  },
+  "navigation": [
+    {
+      "label": "Les Créations",
+      "href": "/creations/"
+    },
+    {
+      "label": "Mirenza Lab",
+      "href": "/lab/"
+    },
+    {
+      "label": "Endométriose",
+      "href": "/endometriose/"
+    },
+    {
+      "label": "La Maison",
+      "href": "/maison/"
+    },
+    {
+      "label": "Notre Mission",
+      "href": "/mission/"
+    },
+    {
+      "label": "Journal",
+      "href": "/journal/"
+    }
+  ]
+}
