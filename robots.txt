@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maisonmirenza.github.io/sitemap.xml
